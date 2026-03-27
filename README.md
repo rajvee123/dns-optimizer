@@ -50,19 +50,6 @@ The system is designed to reduce latency, improve cache hit ratio, and maintain 
 * Simulates attacker clients sending rapid requests
 * Validates effectiveness of congestion control
 
- 🏗️ Project Structure
-
-dns-optimizer/
-│
-├── main.py          # Entry point (runs server + simulation)
-├── server.py        # Multi-threaded DNS server
-├── resolver.py      # DNS resolution logic
-├── cache.py         # Adaptive TTL + LFU caching
-├── congestion.py    # Token bucket congestion control
-├── metrics.py       # Performance tracking
-├── client.py        # Client simulation (normal + attacker)
-├── config.py        # Configuration parameters
-└── README.md
  ⚙️ How It Works
 
 1. Client sends DNS request
